@@ -1,0 +1,63 @@
+.bookcontainer{
+    /* border:2px solid white; */
+    width:200px;
+    padding:20px;
+    background-color:#2F2F2F;
+    margin-left:40px;
+    margin-top:20px;
+}
+.image{
+    width:100%;
+    /* height:250px; */
+    overflow: hidden;
+}
+.image img{
+    width:100%;
+    transition:0.4s;
+    cursor:pointer;
+}
+.image img:hover{
+    transform: scale(1.2);
+}
+.bookcontainer p{
+    color:white;
+    font-size:larger;
+    font-weight:bold;
+}
+.authors span{
+    color:rgb(165, 101, 224);
+    font-size:small;
+}
+.published span{
+    font-size:medium;
+    color:white;
+    font-weight:bold;
+}
+
+.published #year{
+    color:rgb(165, 101, 224);
+}
+.addbtn{
+    padding:15px;
+    text-align:center;
+}
+.addbtn button{
+    padding:5px 13px;
+    border:none;
+    background-color:#7B2CBF;
+    color:white;
+    font-size:larger;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.4s;
+}
+.addbtn button:hover{
+    background-color: #a151e8;
+}
+
+@media screen and (max-width:430px){
+    .bookcontainer{
+        margin-left:0;
+        width:250px;
+    }
+}

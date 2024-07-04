@@ -1,0 +1,37 @@
+.booksincartcontainer{
+    padding:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.heading{
+    padding:30px;
+}
+
+.heading p{
+    font-size:xx-large;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+.emptycart p{
+    font-size:xx-large;
+    color:gray;
+    font-weight:bold;
+    text-align:center;
+}
+.backbtn{
+    padding:5px 20px;
+}
+.backbtn button{
+    padding:5px 13px;
+        border:none;
+        background-color:#7B2CBF;
+        color:white;
+        font-size:larger;
+        font-weight:bold;
+        cursor:pointer;
+        transition:0.4s;
+}

@@ -1,0 +1,54 @@
+.loadingcontainer{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:80vh;
+}
+.loadingcontainer img{
+    width:3%;
+}
+
+.bookscontainer{
+    /* border:2px solid white; */
+    padding:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.showmorebtn{
+    text-align:center;
+    padding:35px;
+}
+.showmorebtn button{
+    padding:5px 13px;
+    border:none;
+    background-color:#7B2CBF;
+    color:white;
+    font-size:larger;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.4s;
+}
+
+.showmorebtn button:hover{
+    background-color: #a151e8;
+}
+
+.showmorebtn img{
+    width:3%;
+}
+
+@media screen and (max-width:430px){
+    .loadingcontainer img{
+        width:13%;
+    }
+    .bookscontainer{
+        padding:30px 10px;
+    }
+    .showmorebtn img{
+        width:13%;
+    }
+}
