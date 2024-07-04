@@ -2,15 +2,16 @@
 
 Welcome to the FrontEnd_Task_IDS_Internship repository! This project is built using React and Vite, providing a fast and efficient development environment for building modern web applications.
 
+- [Live Demo](https://arpit232003.github.io/FrontEnd_Task_IDS_Internship/#/)
+
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- Introduction
+- Features
+- Installation
+- Usage
+- Project Structure
+- API Information
 
 ## Introduction
 
@@ -57,4 +58,30 @@ To start the development server, run the following command:
 ```bash
 npm run dev
 ```
-- The above command will start the web app in browser at [http](http://localhost:3000)
+- The above command will start the web app in browser at http://localhost:5173/FrontEnd_Task_IDS_Internship/
+
+## Project Structure
+
+
+- FrontEnd_Task_IDS_Internship
+  - public
+  - src
+    - assets
+    - components
+    - pages
+    - redux
+    - slices
+    - App.jsx
+    - main.jsx
+  - index.html
+  - package.json
+  - vite.config.js
+  - README.md
+
+
+ ## Information About API used
+ - The API used is [Openlibrary API](https://openlibrary.org/developers/api)
+ - When the page is initially loaded then the data is fetched on the subject basis in this it is 'fantasy'
+ - Using this api the pagination is implemented as well using 'offset' and 'limit' which indicates the current data that is being read and the ammount of data that can be fetched in one request.
+
+
